@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+padding: 0 80px;
+    justify-content: space-between;
+    &__title {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 10px;
+        font-size: 15px;
+    }
+    &__nav ul {
+        display: flex;
+        color: #fff;
+
+    }
+     &__button {
+        background-color: #794D98;
+        color: #fff;
+
+     }   
+}
