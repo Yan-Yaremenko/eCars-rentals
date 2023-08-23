@@ -1,11 +1,11 @@
-@import "./styles/reset";
-@import "./styles/vars";
-@import "./styles/mixin";
-@import "./components/components";
-@import "./pages/pages";
-
+@import './styles/reset';
+@import './styles/vars';
+@import './styles/mixin';
+@import './components/components';
+@import './pages/pages';
 
 body {
-    font-family: "Montserrat";
-    background-color: #1D1C1D;
+  position: relative;
+  background-color: #1d1c1d;
+  font-family: 'Montserrat';
 }

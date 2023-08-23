@@ -1,0 +1,57 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  user-select: none;
+
+  &__items {
+    display: flex;
+    justify-content: center;
+
+    &-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 200px;
+      z-index: 3;
+
+      & button {
+        margin-left: 90px;
+        padding: 10px 50px;
+        transition: all .2s ease;
+        border: 1px solid #702f9f;
+        background-color: #fff0;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #702f9f;
+        }
+      }
+    }
+
+    &-icons {
+      display: flex;
+      flex-direction: column;
+      margin-top: 300px;
+      margin-left: 105px;
+      row-gap: 70px;
+
+      & svg {
+        width: 20px;
+        height: 20px;
+        transition: all .2s ease;
+        cursor: pointer;
+        fill: #fff;
+
+        &:hover {
+          fill: #702f9f;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+.aboutUs {
+  margin-bottom: 100px;
+
+  &__followUs {
+    display: flex;
+
+    &-image {
+      max-width: 1090px;
+      z-index: 1;
+    }
+
+    &-text {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 300px;
+      margin-top: 100px;
+      margin-left: 70px;
+
+      &::before {
+        position: absolute;
+        top: -50px;
+        left: -120px;
+        width: 200px;
+        height: 300px;
+        background-color: #794d98;
+        content: '';
+        z-index: 1;
+      }
+
+      & h2 {
+        max-width: max-content;
+        color: #fff;
+        font-size: 40px;
+        z-index: 2;
+      }
+    }
+
+    &-link {
+      align-self: flex-end;
+      margin-top: 50px;
+      color: #794d98;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__advantages {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    &-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 60px 227px;
+      color: #fff;
+      text-align: start;
+
+      & h3 {
+        margin-bottom: 70px;
+        font-size: 37px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+    }
+
+    &-slogan {
+      width: 100%;
+      margin-bottom: 15px;
+      color: #bebebe;
+      font-size: 18px;
+    }
+
+    & img {
+      height: 100%;
+    }
+
+    &-icons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 70px;
+    }
+
+    &-icon {
+      display: flex;
+      align-items: center;
+
+      & svg {
+        width: 40px;
+        fill: #fff;
+      }
+    }
+
+    &-signature {
+      margin-left: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}

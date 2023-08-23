@@ -1,3 +1,7 @@
 export * from "./footer"
 export * from "./header"
 export * from "./slider"
+export * from "./hero"
+export * from "./icons"
+export * from "./specials"
+export * from "./button"

@@ -1,14 +1,17 @@
+import Button from '../button';
+import Phone from '../icons/phone';
+
 function Header() {
   return (
     <>
       <div className='header'>
-        <h1 className='header__title'>
-          Electro
-          <br />
-          Wheels
-          <br /> Rent
-        </h1>
         <nav className='header__nav'>
+          <h1 className='header__nav-title'>
+            Electro
+            <br />
+            Wheels
+            <br /> Rent
+          </h1>
           <ul>
             <li>Home</li>
             <li>Garage</li>
@@ -17,7 +20,11 @@ function Header() {
             <li>Contacts</li>
           </ul>
         </nav>
-        <button className='header__button'>Call us now</button>
+        <Button
+          className='header__button'
+          buttonText='Call us now'
+          svg={<Phone />}
+        />
       </div>
     </>
   );

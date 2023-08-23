@@ -1,0 +1,118 @@
+{
+    "heroSlider": [
+      {
+          "id": 1,
+          "name": "Tesla Model S 2017",
+          "price": "600",
+          "url": "../images/18.png",
+          "slogan": "luxury lifestyle rentals"
+      },
+      {
+          "id": 2,
+          "name": "Tesla Model 3 2019",
+          "price": "450",
+          "url": "../images/24.png",
+          "slogan": "Experience Electric Freedom"
+      },
+      {
+          "id": 3,
+          "name": "Tesla Model X 2020",
+          "price": "700",
+          "url": "../images/27.png",
+          "slogan": "Electrify Your Journey"
+      },
+      {
+          "id": 4,
+          "name": "Volkswagen ID4 2023",
+          "price": "290",
+          "url": "../images/16.png",
+          "slogan": "Ride the Future Today"
+      }
+    ],
+    "specialsSlider": [
+        {
+            "id": 1,
+            "name": "Tesla Model X 2017",
+            "price": "600",
+            "url": "../images/card1.png",
+            "kit": "100D Dual Motor"
+        },
+        {
+            "id": 2,
+            "name": "Porsche Taycan 2022",
+            "price": "1450",
+            "url": "../images/card12.png",
+            "kit": "RWD Base"
+        },
+        {
+            "id": 3,
+            "name": "Tesla Model 3 2018",
+            "price": "340",
+            "url": "../images/card3.png",
+            "kit": "Long Range 75kWh"
+        },
+        {
+            "id": 4,
+            "name": "Tesla Model S 2018",
+            "price": "420",
+            "url": "../images/card4.png",
+            "kit": "75D 75kWh Dual Motor"
+        },
+        {
+            "id": 5,
+            "name": "Nissan Leaf 2018",
+            "price": "240",
+            "url": "../images/card5.png",
+            "kit": "40kWh AT"
+        },
+        {
+            "id": 6,
+            "name": "Volkswagen ID.6 Crozz 2023",
+            "price": "450",
+            "url": "../images/card6.png",
+            "kit": "84.8kWh"
+        },
+        {
+            "id": 7,
+            "name": "BMW I3 2014",
+            "price": "370",
+            "url": "../images/card7.png",
+            "kit": "22 kWh Base"
+        },
+        {
+            "id": 8,
+            "name": "Hyundai Ioniq 2017",
+            "price": "490",
+            "url": "../images/card8.png",
+            "kit": "I generation Electric"
+        },
+        {
+            "id": 9,
+            "name": "Jaguar I-Pace 2019",
+            "price": "600",
+            "url": "../images/card9.png",
+            "kit": "EV400 90kWh AWD"
+        },
+        {
+            "id": 10,
+            "name": "Audi e-tron 2022",
+            "price": "750",
+            "url": "../images/card10.png",
+            "kit": "95kWh Quattro"
+        },
+        {
+            "id": 11,
+            "name": "Renault Zoe 2015",
+            "price": "200",
+            "url": "../images/card11.png",
+            "kit": "Q90 44.1 kWh"
+        },
+        {
+            "id": 12,
+            "name": "Tesla Model Y 2020",
+            "price": "550",
+            "url": "../images/card2.png",
+            "kit": "Performance 80.5 kWh Dual Motor"
+        }
+      ]
+}

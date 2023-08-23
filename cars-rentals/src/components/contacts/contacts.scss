@@ -1,0 +1,108 @@
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 232px 200px;
+  background-image: url('../../../public/images/bgContacts.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 140px;
+    padding: 0 200px 0 0;
+
+    &-logo {
+      font-size: 35px;
+      user-select: none;
+    }
+
+    &-contact {
+      display: flex;
+      flex-direction: column;
+
+      & p {
+        margin-bottom: 15px;
+        transition: all .2s ease;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 500;
+      }
+
+      & a {
+        margin-bottom: 15px;
+        transition: all .2s ease;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 500;
+
+        &:hover {
+          color: #702f9f;
+        }
+      }
+    }
+
+    &-icons {
+      display: flex;
+      width: 150px;
+      column-gap: 15px;
+      cursor: pointer;
+      fill: #fff;
+
+      & svg {
+        transition: all .2s ease;
+
+        &:hover {
+          fill: #702f9f;
+        }
+      }
+    }
+  }
+
+  &__form {
+    display: flex;
+    width: 100%;
+    margin-top: 140px;
+    gap: 10px;
+
+    &-column {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      & button {
+        height: 50px;
+        transition: all .2s ease;
+        border: 1px solid #606060;
+        background-color: #702f9f;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #9848d0;
+        }
+      }
+    }
+
+    &-input {
+      width: 300px;
+      height: 50px;
+      padding-left: 15px;
+      border: 1px solid #606060;
+      background-color: #fff0;
+      color: #606060;
+
+      &[placeholder='Message'] {
+        height: 110px;
+      }
+
+      &:active {
+        border: 1px solid #9848d0;
+      }
+    }
+  }
+}
