@@ -1,7 +1,7 @@
 function Button({ className, buttonText, svg }) {
   return (
     <>
-      <button className={className}>
+      <button className={`button ${className}`}>
         {buttonText}
         {svg}
       </button>

@@ -12,6 +12,9 @@ import { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay, Controller, Navigation } from 'swiper';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import 'swiper/scss';
 import 'swiper/css/bundle';
 function Hero() {
@@ -21,6 +24,9 @@ function Hero() {
   const dispatch = useDispatch();
 
   useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+
     dispatch(getDataAsync());
   }, [dispatch]);
 

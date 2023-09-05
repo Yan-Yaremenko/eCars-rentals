@@ -1,5 +1,4 @@
 import AboutUs from '../../components/aboutUs';
-import Contacts from '../../components/contacts';
 import Hero from '../../components/hero';
 import Specials from '../../components/specials';
 
@@ -9,7 +8,6 @@ function Home() {
       <Hero />
       <Specials />
       <AboutUs />
-      <Contacts />
     </>
   );
 }

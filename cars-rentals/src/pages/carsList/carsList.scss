@@ -1,0 +1,76 @@
+.carsList {
+  position: relative;
+  padding: 500px 0 205px;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../public/images/allCarsPromo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+    z-index: 0;
+    filter: contrast(60%) brightness(45%);
+  }
+
+  &__promo {
+    position: relative;
+    padding: 0 300px;
+    color: #fff;
+    z-index: 1;
+
+    &-title {
+      margin-bottom: 30px;
+      font-size: 100px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    &-text {
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+
+  &__filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 30px;
+    padding: 0 300px;
+    z-index: 1;
+
+    &-button {
+      margin-left: 0;
+      font-size: 20px;
+    }
+
+    &-price {
+      margin-right: 50px;
+      color: #a0a0a0;
+      font-size: 18px;
+      text-transform: uppercase;
+
+      & span {
+        color: #702f9f;
+      }
+    }
+  }
+
+  &__wrapper {
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+    background-image: url('../../../public/images/bgAllCars.png');
+    background-repeat: no-repeat;
+    background-position: 60% 20%;
+    background-size: contain;
+    grid-template-columns: repeat(3, 520px);
+    row-gap: 50px;
+    grid-template-rows: auto;
+  }
+}

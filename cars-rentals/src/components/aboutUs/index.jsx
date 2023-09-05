@@ -2,19 +2,38 @@ import { Link } from 'react-router-dom';
 import HandKey from '../icons/handKey';
 import PickMap from '../icons/pickMap';
 import RoadIcon from '../icons/roadIcon';
+import { useEffect } from 'react';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function AboutUs() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <>
       <div className='aboutUs'>
-        <div className='aboutUs__followUs'>
+        <div
+          data-aos='fade-right'
+          data-aos-offset='200'
+          data-aos-easing='ease-in-sine'
+          data-aos-duration='300'
+          className='aboutUs__followUs'
+        >
           <img
             className='aboutUs__followUs-image'
             src='./images/aboutUs2.png'
             alt='aboutUs'
           />
           <div className='aboutUs__followUs-text'>
-            <h2>
+            <h2
+              data-aos='fade-right'
+              data-aos-offset='200'
+              data-aos-easing='ease-in-sine'
+              data-aos-duration='400'
+            >
               Electro <br />
               Wheels Rent
             </h2>
@@ -22,7 +41,13 @@ function AboutUs() {
           </div>
         </div>
         <div className='aboutUs__advantages'>
-          <div className='aboutUs__advantages-text'>
+          <div
+            data-aos='fade-right'
+            data-aos-offset='200'
+            data-aos-easing='ease-in-sine'
+            data-aos-duration='400'
+            className='aboutUs__advantages-text'
+          >
             <h3>electric car rental in Kyiv</h3>
             <p className='aboutUs__advantages-slogan'>
               Are you searching for electric car rentals in Kyiv?
@@ -62,7 +87,15 @@ function AboutUs() {
               </div>
             </div>
           </div>
-          <img src='./images/aboutUs1.png' alt='' />
+
+          <img
+            data-aos='fade-left'
+            data-aos-offset='200'
+            data-aos-easing='ease-in-sine'
+            data-aos-duration='400'
+            src='./images/aboutUs1.png'
+            alt=''
+          />
         </div>
       </div>
     </>

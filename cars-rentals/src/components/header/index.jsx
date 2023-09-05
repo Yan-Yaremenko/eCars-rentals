@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Button from '../button';
 import Phone from '../icons/phone';
 
@@ -6,15 +7,18 @@ function Header() {
     <>
       <div className='header'>
         <nav className='header__nav'>
-          <h1 className='header__nav-title'>
-            Electro
-            <br />
-            Wheels
-            <br /> Rent
-          </h1>
+          <Link className='header__nav-title' to='/'>
+            <h1>
+              Electro
+              <br />
+              Wheels
+              <br /> Rent
+            </h1>
+          </Link>
           <ul>
-            <li>Home</li>
-            <li>Garage</li>
+            <Link to='/allcars'>
+              <li>Garage</li>
+            </Link>
             <li>About us</li>
             <li>FAQ</li>
             <li>Contacts</li>
